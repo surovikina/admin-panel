@@ -1,0 +1,29 @@
+.main-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  &__wrapper {
+    display: flex;
+    margin-left: 30px;
+
+  }
+
+  &__logo {
+    padding: $global-gutter;
+  }
+
+  &__interaction {
+    padding: 20px;
+  }
+
+  &__admin {
+    padding: 20px;
+    width: auto
+  }
+}
+
+.logo__title {
+  color: $brand-primary;
+}
