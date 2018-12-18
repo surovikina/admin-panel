@@ -1,0 +1,19 @@
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 $global-small-gutter;
+  color: $gray-light;
+  background-color: $white-color;
+  z-index: $global-z-index;
+  box-shadow: $global-medium-box-shadow;
+
+  &__action > * {
+    margin-right: $global-xssmall-gutter;
+  }
+
+}

@@ -1,0 +1,77 @@
+.cart {
+  position: relative;
+  width: 340px;
+  margin-top: $global-medium-margin;
+  background-color: $white-color;
+  border: $global-border-width solid $global-border;
+  border-radius: $global-border-radius;
+  box-shadow: $global-small-box-shadow;
+
+  &__holder {
+    height: 280px;
+    padding: $global-small-gutter;
+  }
+
+  &__header-icons {
+    display: inline-block;
+    width: $global-control-xsmall-width;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin: $global-small-margin 0;
+  }
+
+  &__icons {
+    display: inline-block;
+    margin: $global-xsmall-gutter 0;
+    font-size: $global-xsmall-font-size;
+    text-transform: uppercase;
+  }
+
+  &__time {
+    margin: $global-small-margin 0;
+    font-size: $global-xsmall-font-size;
+    color: $grey;
+    display: block;
+  }
+
+  &__description-text {
+    font-size: $global-small-font-size;
+    margin-bottom: $global-small-margin;
+  }
+
+  &__footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: $global-small-gutter;
+    border-top: $global-border-width solid $global-background-third;
+  }
+
+  &__footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 $global-small-gutter;
+    border-top: $global-border-width solid $global-background-third;
+  }
+
+  &__footer-chart {
+    padding: $global-small-gutter 0;
+  }
+
+  &__footer-notification {
+    flex-basis: 122px;
+    padding: $global-small-gutter 0;
+    text-align: right;
+    border-left: $global-border-width solid $global-background-third;
+  }
+
+  &__numbering {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    color: $gray-dark;
+  }
+
+}

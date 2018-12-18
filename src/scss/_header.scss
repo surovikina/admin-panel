@@ -3,27 +3,34 @@
   left: 0;
   right: 0;
   top: 0;
+  height: $header-height;
+  border-bottom: 1px solid $global-border-darken;
+  background-color: $global-background;
+  z-index: $global-z-index;
 
   &__wrapper {
     display: flex;
-    margin-left: 30px;
-
   }
 
-  &__logo {
-    padding: $global-gutter;
+  &__blue-square {
+    width: $aside-width;
+  }
+
+  &__container {
+    padding: $global-small-gutter;
   }
 
   &__interaction {
-    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: $global-small-gutter;
+    border-right: $global-border-width solid $global-border;
+    border-left: $global-border-width solid $global-border;
   }
 
-  &__admin {
-    padding: 20px;
-    width: auto
+  &__interaction-left {
+    flex-grow: 1;
   }
 }
 
-.logo__title {
-  color: $brand-primary;
-}

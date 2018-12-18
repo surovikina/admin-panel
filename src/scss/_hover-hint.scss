@@ -1,0 +1,29 @@
+.hover {
+  position: absolute;
+  top: -15px;
+  right: -26%;
+  min-width: 150%;
+  opacity: 0;
+  transition: .3s;
+
+  &__hint {
+    position: relative;
+    padding: 5px;
+    color: $white-color;
+    font-size: 8px;
+    background-color: $global-background-hint;
+    border-radius: $global-border-radius;
+
+    &::after {
+      position: absolute;
+      content: '';
+      display: block;
+      bottom: -6px;
+      right: 43%;
+      width: 0; height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 7px solid $global-background-hint;
+    }
+  }
+}

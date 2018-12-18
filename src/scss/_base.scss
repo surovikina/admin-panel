@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box!important;
 }
 
 html, body {
@@ -8,9 +8,9 @@ html, body {
 }
 
 body {
-  //font-family: $global-font-family;
-  //font-size:  $global-font-size;
-  //line-height: $global-line-height;
+  font-family: $global-font-family;
+  font-size:  $global-small-font-size;
+  line-height: $global-line-height;
   //color: $global-color;
   //background-color:  var($global-primary-background);
   min-width: 300px;
@@ -37,10 +37,33 @@ input,
 textarea,
 button {
   border: none;
+
 }
 
 input,
 textarea,
 button :focus {
   outline: none;
+}
+
+select {
+  -webkit-appearance: none;
+  border-radius: 0;
+  border: $global-border-width solid $global-border;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: $global-color;
+}
+
+h3 {
+  font-size: $global-small-font-size;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
 }

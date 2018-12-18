@@ -1,0 +1,57 @@
+.button {
+  padding: 10px;
+  font-weight: bold;
+  font-size: $global-small-font-size;
+  text-transform: uppercase;
+  color: $global-color;
+  background-color: $global-background;
+  border: $global-border-width solid transparent;
+  border-radius: 2px;
+
+  &--primary {
+    color: $white-color;
+    background-color: $blue-dark;
+  }
+
+  &--secondary {
+    position: relative;
+    padding-left: $global-gutter;
+    color: $blue-dark;
+    background-color: transparent;
+    border: $global-border-width solid $blue-dark;
+
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      padding-left: $global-small-gutter;
+      height: 100%;
+      width: $global-xsmall-gutter;
+      background: url("../src/img/plus.svg") no-repeat center;
+    }
+  }
+
+  &--search {
+    height: $global-control-height;
+    width: $global-control-width;
+    border: none;
+    background: url('../src/img/magnifying-glass.svg') no-repeat center;
+    background-size: $global-small-font-size;
+  }
+
+  &--arrow {
+    height: $global-control-height;
+    width: $global-control-width;
+    background: url('../src/img/magnifying-glass.svg') no-repeat center;
+    background-size: $global-small-font-size;
+    border: $global-border-width solid $global-border;
+  }
+
+  &--close {
+    vertical-align: middle;
+    background: transparent url('../src/img/cancel.svg') no-repeat center;
+    background-size: 8px;
+  }
+}

@@ -1,0 +1,32 @@
+.filters {
+  border: 1px solid $global-border-secondary;
+  border-radius: $global-border-radius;
+  overflow: hidden;
+  margin-bottom: $global-small-margin;
+
+  &__holder {
+    display: flex;
+    justify-content: space-between;
+    padding: $global-xssmall-gutter $global-xssmall-gutter;
+    background-color: $white-color;
+    border-bottom: $global-border-width solid $global-border-light;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__container > *:not(:last-child) {
+    margin-right: $global-small-margin;
+  }
+
+  &__show-quantity {
+    display: flex;
+    align-items: center;
+  }
+
+  &__bottom {
+    padding: $global-small-gutter $global-xssmall-gutter $global-xssmall-gutter $global-small-gutter;
+  }
+}

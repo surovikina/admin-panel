@@ -1,0 +1,38 @@
+.list-items {
+
+  &__item {
+    border-left: 2px solid transparent;
+    &:hover {
+      border-left: 2px solid $brand-primary;
+      background-color: $blue-light;
+
+      .icon {
+        fill: $blue;;
+      }
+    }
+  }
+
+  &__item  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: $gray-light;
+  }
+
+  &--vertical {
+    display: flex;
+
+    .list-items__item {
+      margin: 0 $global-xssmall-gutter;
+
+      &:hover {
+        background: transparent;
+        border-color: transparent;
+      }
+
+    }
+  }
+}

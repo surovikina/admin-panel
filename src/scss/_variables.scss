@@ -1,7 +1,17 @@
 /*Colors*/
 
-$global-color:              #262626;
-$white-color:               #ffffff;
+$global-color:                  #262626;
+$white-color:                   #ffffff;
+
+
+$grey:                           #ced2d5;
+$gray-light:                     #848484;
+$gray-dark:                      #797979;
+
+$blue-light:                     #f5f9ff;
+$blue:                           #335ffb;
+$blue-dark:                      #315efb;
+
 
 /*$global-emphasis-color:     #F6FAF2;*/
 /*$global-muted-color:        #d6d3d3;*/
@@ -10,38 +20,38 @@ $white-color:               #ffffff;
 /*$global-link-hover-color:   #29cf0a;*/
 
 /*$global-inverse-color:      #fff;*/
-/*$global-card-description:   #363b47;*/
 
-$brand-primary:             #315efb;
+
+$brand-primary:               $blue-dark;
 //$brand-secondary:           #98eb05;
 //$brand-tertiary:            #56566d;
 
-$gray:                       #757575;
-$gray-light:                 #f6f8f9;
-$gray-dark:                  #484848;
-
 /*Breakpoints*/
 
-//$breakpoint-small:            768px;
-//$breakpoint-medium:           1025px;
-//$breakpoint-large:            1200px;
-/*$breakpoint-xlarge:         1600px;*/
+$breakpoint-small:            768px;
+$breakpoint-medium:           1025px;
+$breakpoint-large:            1200px;
+$breakpoint-xlarge:           1600px;
 
 $global-font-family:        'Roboto', 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 /*$global-font-family-secondary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
-$global-font-size:          16px;
-$global-line-height:        normal;
+$global-font-size:            16px;
+$global-line-height:          normal;
 
-/*$global-xxlarge-font-size:  40px;*/
-/*$global-xlarge-font-size:   34px;*/
-/*$global-large-font-size:    28px;*/
-/*$global-medium-font-size:   22px;*/
-/*$global-small-font-size:    18px;*/
+$global-xxlarge-font-size:    40px;
+$global-xlarge-font-size:     34px;
+$global-large-font-size:      28px;
+$global-medium-font-size:     22px;
+$global-small-font-size:      14px;
+$global-xsmall-font-size:     12px;
 
 /*Backgrounds*/
 
 $global-background:           #fff;
-$global-background-secondary: #ebf0f3 ;
+$global-background-secondary: #ebf0f3;
+$global-background-third:     #f6f8f9;
+$global-background-hint:      #484848;
+
 
 
 $global-success-background:     #20af77;
@@ -50,35 +60,56 @@ $global-danger-background:      #dc3030;
 
 /*Borders*/
 
-//$global-border-width:           1px;
-//$global-border:                 #d8d8d8;
+$global-border-width:           2px;
+$global-border:                 #f2f2f2;
+$global-border-secondary:       #cfd5d8;
+$global-border-darken:          $grey;
+$global-border-light:           #efefef;
+$global-border-radius:          5px;
+$global-medium-border-radius:   20px;
+
+
 
 /*Box-Shadows*/
 
-/*$global-small-box-shadow:       0 2px 8px rgba(0, 0, 0, 0.08);*/
-/*$global-medium-box-shadow:      0 5px 15px rgba(0, 0, 0, 0.08);*/
-/*$global-large-box-shadow:       0 14px 25px rgba(0, 0, 0, 0.16);*/
-/*$global-xlarge-box-shadow:      0 28px 50px rgba(0, 0, 0, 0.16);*/
+$global-small-box-shadow:       0 2px 8px rgba(0, 0, 0, 0.08);
+$global-medium-box-shadow:      0 5px 15px rgba(0, 0, 0, 0.08);
+$global-large-box-shadow:       0 14px 25px rgba(0, 0, 0, 0.16);
+$global-xlarge-box-shadow:      0 28px 50px rgba(0, 0, 0, 0.16);
 
 /*Spacings*/
 
 /*Used in margin, section, list*/
-/*$global-margin:                 20px;*/
-/*$global-small-margin:           10px;*/
-/*$global-medium-margin:          32px;*/
-/*$global-large-margin:           64px;*/
-/*$global-xlarge-margin:          140px;*/
+$global-margin:                 20px;
+$global-small-margin:           10px;
+$global-medium-margin:          32px;
+$global-large-margin:           64px;
+$global-xlarge-margin:          140px;
 
 /*Used in grid, column, container, align, card, padding*/
 $global-gutter:                 32px;
-/*$global-small-gutter:           16px;*/
-/*$global-medium-gutter:          40px;*/
-/*$global-large-gutter:           72px;*/
+$global-small-gutter:           20px;
+$global-xsmall-gutter:          14px;
+$global-xssmall-gutter:         10px;
+$global-medium-gutter:          40px;
+$global-large-gutter:           72px;
 
 /*Controls*/
+$global-control-xsmall-height:  20px;
+$global-control-xsmall-width:   20px;
+$global-control-height:         40px;
+$global-control-width:          40px;
+$global-control-small-height:   38px;
+$global-control-large-height:   64px;
 
-/*$global-control-height:         54px;*/
-/*$global-control-small-height:   40px;*/
-/*$global-control-large-height:   64px;*/
+
 
 $global-z-index:                1000;
+
+//
+
+
+$aside-width:                    80px;
+$header-height:                  80px;
+
+

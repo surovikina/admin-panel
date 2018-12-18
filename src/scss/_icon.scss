@@ -1,0 +1,32 @@
+.icon {
+  display: inline-block;
+  padding: $global-xssmall-gutter;
+  vertical-align: middle;
+  fill: #313131;
+
+  &:hover {
+    fill: $blue;
+  }
+
+}
+
+.icon-small {
+  padding: 0;
+
+  color: $gray-dark;
+  font-size: $global-xsmall-font-size;
+
+  svg {
+    margin-right: 4px;
+    vertical-align: middle;
+    fill: $gray-dark;
+  }
+
+  &--uppercase {
+    text-transform: uppercase;
+  }
+}
+
+.icon-small:not(:last-child) {
+  margin-right: $global-xssmall-gutter;
+}

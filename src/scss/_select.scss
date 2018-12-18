@@ -1,0 +1,55 @@
+label {
+  text-transform: uppercase;
+}
+
+.select {
+  position: relative;
+  padding: $global-xssmall-gutter $global-large-gutter $global-xssmall-gutter $global-small-gutter;
+  font-size: $global-small-font-size;
+  background: url("../src/img/down-arrow.svg") no-repeat 80%;
+  background-size: $global-xsmall-font-size;
+
+  &__separator {
+    position: relative;
+    height: $global-control-height;
+
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      border-radius: 100%;
+      background-color: $gray-dark;
+    }
+
+    &::before {
+      top: 40%;
+    }
+
+    &::after {
+      top: 49%;
+    }
+  }
+
+  &__select-filter {
+    padding: $global-xssmall-gutter;
+    background-color: $global-background-third;
+    border-radius: $global-medium-border-radius;
+  }
+
+  &__delete {
+    position: relative;
+    height: $global-control-height;
+    width: $global-control-width;
+    background: url("../src/img/trash.svg") no-repeat center;
+    background-size: $global-xsmall-font-size;
+
+    &:hover {
+      .hover {
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.carts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-folder {
+  width: 164px;
+
+  &__info {
+    display: flex;
+  }
+
+  &__text {
+  padding: 0 $global-small-gutter;
+  }
+}

@@ -1,0 +1,12 @@
+.nav-list {
+  display: flex;
+
+  &__item {
+  margin: 0 $global-xssmall-gutter;
+
+    a {
+      display: inline-block;
+      padding:$global-xssmall-gutter 0;
+    }
+ }
+}

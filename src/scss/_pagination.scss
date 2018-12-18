@@ -1,0 +1,31 @@
+.pagination {
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: $global-xssmall-gutter;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+
+    &.active,
+    &:hover {
+      background-color: $white-color;
+
+      .pagination__link {
+        color: $blue;
+      }
+    }
+  }
+
+  &__link {
+    padding: $global-xssmall-gutter;
+    color: $gray-dark;
+  }
+}

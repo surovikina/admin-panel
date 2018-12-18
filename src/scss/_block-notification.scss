@@ -1,0 +1,10 @@
+.block-notification {
+  display: inline-block;
+
+  &__quantity {
+    padding: $global-xssmall-gutter $global-small-gutter;
+    color: $white-color;
+    background-color: $blue;
+    border-radius: $global-medium-border-radius;
+  }
+}
