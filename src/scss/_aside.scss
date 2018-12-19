@@ -3,7 +3,9 @@
   top: $header-height;
   bottom: 0;
   width: $aside-width;
-  padding-top: 20px;
+  margin-bottom: $global-large-gutter;
+  padding: $global-small-gutter 0;
   border-right: 1px solid $global-border-darken;
   overflow-y: auto;
+  background-color: $white-color;
 }

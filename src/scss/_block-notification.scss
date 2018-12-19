@@ -1,7 +1,10 @@
 .block-notification {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  font-size: $global-xsmall-font-size;
 
   &__quantity {
+    margin-right: $global-small-margin;
     padding: $global-xssmall-gutter $global-small-gutter;
     color: $white-color;
     background-color: $blue;

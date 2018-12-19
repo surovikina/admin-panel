@@ -6,14 +6,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 $global-small-gutter;
+  padding: $global-xsmall-gutter $global-small-gutter;
   color: $gray-light;
   background-color: $white-color;
   z-index: $global-z-index;
   box-shadow: $global-medium-box-shadow;
 
-  &__action > * {
-    margin-right: $global-xssmall-gutter;
+  .control-input {
+    margin-right: $global-margin;
   }
 
+  &__nav {
+    flex-grow: 1;
+  }
 }

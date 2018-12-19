@@ -4,11 +4,12 @@
 
   &__info {
     display: inline-block;
+    margin-right: $global-margin;
   }
 
   &__name {
     position: relative;
-    font-size: $global-small-font-size;
+    font-size: $global-xsmall-font-size;
     color: $gray-dark;
   }
 

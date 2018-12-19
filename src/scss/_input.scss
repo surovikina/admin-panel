@@ -36,3 +36,14 @@
   }
 }
 
+.control-input {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    margin-left: $global-small-margin;
+    text-transform: lowercase;
+    font-size: $global-xsmall-font-size;
+
+  }
+}

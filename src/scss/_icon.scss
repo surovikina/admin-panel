@@ -1,18 +1,16 @@
 .icon {
   display: inline-block;
-  padding: $global-xssmall-gutter;
+  padding: 5px;
   vertical-align: middle;
   fill: #313131;
 
   &:hover {
     fill: $blue;
   }
-
 }
 
 .icon-small {
   padding: 0;
-
   color: $gray-dark;
   font-size: $global-xsmall-font-size;
 
