@@ -4,7 +4,7 @@
   margin-bottom: $header-height;
   margin-left: $aside-width;
   padding: $global-small-gutter;
-  background-color: $global-background-secondary;
+
 
   &__top {
     display: flex;
@@ -26,7 +26,6 @@
     .carts {
       justify-content: space-between;
     }
-
   }
 
   &__pagination {

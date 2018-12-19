@@ -3,34 +3,21 @@
   left: 0;
   right: 0;
   top: 0;
-  height: $header-height;
-  border-bottom: 1px solid $global-border-darken;
+  display: flex;
+  align-items: center;
   background-color: $global-background;
   z-index: $global-z-index;
+  border-bottom: 1px solid $global-border-darken;
 
-  &__wrapper {
-    display: flex;
+  .logo {
+    border-right: $global-border-width solid $global-border-three;
   }
 
-  &__blue-square {
-    width: $aside-width;
-  }
-
-  &__container {
-    padding: $global-small-gutter;
-  }
-
-  &__interaction {
+  .search {
     flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    padding: $global-small-gutter;
-    border-right: $global-border-width solid $global-border;
-    border-left: $global-border-width solid $global-border;
   }
 
-  &__interaction-left {
-    flex-grow: 1;
+  .admin {
+    border-left: $global-border-width solid $global-border-three;
   }
 }
-

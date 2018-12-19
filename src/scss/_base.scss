@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box!important;
+  box-sizing: border-box !important;
 }
 
 html, body {
@@ -9,10 +9,10 @@ html, body {
 
 body {
   font-family: $global-font-family;
-  font-size:  $global-small-font-size;
+  font-size: $global-small-font-size;
   line-height: $global-line-height;
   //color: $global-color;
-  //background-color:  var($global-primary-background);
+  background-color: $global-background-secondary;
   min-width: 300px;
 }
 
@@ -66,4 +66,9 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+input {
+  font-size: 14px;
+  padding: 12px;
 }

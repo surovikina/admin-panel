@@ -1,4 +1,10 @@
 .admin {
+  padding: $global-small-gutter;
+
+  &__info {
+    display: inline-block;
+  }
+
   &__name {
     position: relative;
     font-size: $global-small-font-size;

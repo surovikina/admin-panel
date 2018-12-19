@@ -61,8 +61,11 @@ $global-danger-background:      #dc3030;
 /*Borders*/
 
 $global-border-width:           2px;
+
 $global-border:                 #f2f2f2;
 $global-border-secondary:       #cfd5d8;
+$global-border-three:           #ededed;
+
 $global-border-darken:          $grey;
 $global-border-light:           #efefef;
 $global-border-radius:          5px;
@@ -80,6 +83,7 @@ $global-xlarge-box-shadow:      0 28px 50px rgba(0, 0, 0, 0.16);
 /*Spacings*/
 
 /*Used in margin, section, list*/
+
 $global-margin:                 20px;
 $global-small-margin:           10px;
 $global-medium-margin:          32px;
@@ -87,6 +91,7 @@ $global-large-margin:           64px;
 $global-xlarge-margin:          140px;
 
 /*Used in grid, column, container, align, card, padding*/
+
 $global-gutter:                 32px;
 $global-small-gutter:           20px;
 $global-xsmall-gutter:          14px;
@@ -95,14 +100,13 @@ $global-medium-gutter:          40px;
 $global-large-gutter:           72px;
 
 /*Controls*/
+
 $global-control-xsmall-height:  20px;
 $global-control-xsmall-width:   20px;
 $global-control-height:         40px;
 $global-control-width:          40px;
 $global-control-small-height:   38px;
 $global-control-large-height:   64px;
-
-
 
 $global-z-index:                1000;
 

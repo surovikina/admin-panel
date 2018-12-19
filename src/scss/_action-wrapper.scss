@@ -1,0 +1,6 @@
+.action-wrapper {
+
+  & > *  {
+    margin-right: $global-small-margin;
+  }
+}

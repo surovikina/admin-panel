@@ -1,4 +1,6 @@
 .logo {
+  padding: $global-small-gutter;
+
   &__desk {
     font-size: $global-small-font-size;
     color: $gray-dark;
