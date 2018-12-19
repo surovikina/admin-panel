@@ -3,7 +3,6 @@
 $global-color:                  #262626;
 $white-color:                   #ffffff;
 
-
 $grey:                           #ced2d5;
 $gray-light:                     #848484;
 $gray-dark:                      #797979;
@@ -23,8 +22,7 @@ $blue-dark:                      #315efb;
 
 
 $brand-primary:               $blue-dark;
-//$brand-secondary:           #98eb05;
-//$brand-tertiary:            #56566d;
+$brand-secondary:             $blue-light;
 
 /*Breakpoints*/
 
@@ -34,7 +32,7 @@ $breakpoint-large:            1200px;
 $breakpoint-xlarge:           1600px;
 
 $global-font-family:        'Roboto', 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-/*$global-font-family-secondary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
+$global-font-family-secondary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $global-font-size:            16px;
 $global-line-height:          normal;
 

@@ -33,6 +33,24 @@
     }
   }
 
+  &--icon {
+    position: relative;
+  }
+
+  &__notification {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    font-size: $global-xsmall-font-size;
+    font-weight: normal;
+    line-height: 18px;
+    color: $white-color;
+    background-color: $blue;
+    border-radius: 50%;
+  }
+
   &--search {
     height: $global-control-height;
     width: $global-control-width;
