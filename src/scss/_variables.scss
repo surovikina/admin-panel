@@ -11,10 +11,6 @@ $blue-light:                     #f5f9ff;
 $blue:                           #335ffb;
 $blue-dark:                      #315efb;
 
-
-/*$global-emphasis-color:     #F6FAF2;*/
-/*$global-muted-color:        #d6d3d3;*/
-
 //$global-link-color:         #27cb04;
 /*$global-link-hover-color:   #29cf0a;*/
 
@@ -86,6 +82,7 @@ $global-border-three:           #ededed;
 $global-border-darken:          $grey;
 $global-border-light:           #efefef;
 $global-border-radius:          5px;
+$global-small-border-radius:    12px;
 $global-medium-border-radius:   20px;
 
 /*Box-Shadows*/
@@ -108,8 +105,8 @@ $global-z-index:                1000;
 
 //
 
-
 $aside-width:                    80px;
 $header-height:                  80px;
+$input-height:                   24px;
 
 

@@ -1,6 +1,6 @@
-.action-wrapper {
+.group-buttons {
 
-  & > *  {
+  & > *:not(:last-child)  {
     margin-right: $global-small-margin;
   }
 }
