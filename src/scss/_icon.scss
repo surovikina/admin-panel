@@ -1,11 +1,21 @@
 .icon {
   display: inline-block;
   padding: 5px;
+  margin-right: 5px;
   vertical-align: middle;
   fill: #313131;
 
   &:hover {
     fill: $blue;
+  }
+
+  &--inside {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../src/img/trash.svg') no-repeat center;
+    background-size: 20px;
   }
 }
 
@@ -27,4 +37,9 @@
 
 .icon-small:not(:last-child) {
   margin-right: $global-xssmall-gutter;
+}
+
+.icon-inside {
+  display: inline-block;
+
 }

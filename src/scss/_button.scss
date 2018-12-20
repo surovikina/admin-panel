@@ -15,22 +15,22 @@
 
   &--secondary {
     position: relative;
-    padding-left: $global-gutter;
+    //padding-left: $global-gutter;
     color: $blue-dark;
     background-color: transparent;
     border: $global-border-width solid $blue-dark;
 
-    &::after {
-      content: '';
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      padding-left: $global-small-gutter;
-      height: 100%;
-      width: $global-xsmall-gutter;
-      background: url("../src/img/plus.svg") no-repeat center;
-    }
+    //&::after {
+    //  content: '';
+    //  position: absolute;
+    //  display: block;
+    //  left: 0;
+    //  top: 0;
+    //  padding-left: $global-small-gutter;
+    //  height: 100%;
+    //  width: $global-xsmall-gutter;
+    //  background: url("../src/img/plus.svg") no-repeat center;
+    //}
   }
 
   &--icon {
