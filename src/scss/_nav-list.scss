@@ -2,11 +2,31 @@
   display: flex;
 
   &__item {
-  margin: 0 $global-xssmall-gutter;
+    margin: 0 $global-xssmall-gutter;
+    padding: $global-xssmall-gutter 0;
+    border-bottom: $global-border-width solid transparent;
 
     a {
       display: inline-block;
-      padding:$global-xssmall-gutter 0;
+      padding: $global-xssmall-gutter 0;
+      color: $global-link-color;
+      font-weight: bold;
+      font-size: $global-small-font-size;
+      text-transform: uppercase;
     }
- }
+
+    &:hover {
+      border-bottom: $global-border-width solid $blue;
+    }
+
+    &:hover a {
+      color: $blue;
+    }
+
+  }
+
+  &__item-quantity {
+    color: $gray-light;
+    font-weight: normal;
+  }
 }

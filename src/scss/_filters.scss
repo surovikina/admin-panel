@@ -7,12 +7,14 @@
   &__holder {
     display: flex;
     justify-content: space-between;
-    padding: $global-xssmall-gutter $global-xssmall-gutter;
+    flex-wrap: wrap;
+    padding: 0 $global-xssmall-gutter;
     background-color: $white-color;
     border-bottom: $global-border-width solid $global-border-light;
   }
 
   &__container {
+    padding: $global-small-gutter $global-xssmall-gutter ;
     display: flex;
     align-items: center;
   }
@@ -24,6 +26,7 @@
   &__show-quantity {
     display: flex;
     align-items: center;
+    margin: 0 $global-xssmall-gutter;
   }
 
   &__bottom {
