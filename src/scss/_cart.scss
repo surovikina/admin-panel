@@ -1,5 +1,7 @@
 .cart {
   position: relative;
+  display: flex;
+  flex-direction: column;
   width: 340px;
   min-height: 400px;
   margin-top: $global-medium-margin;
@@ -9,7 +11,7 @@
   box-shadow: $global-small-box-shadow;
 
   &__holder {
-    height: 280px;
+    flex-grow: 1;
     padding: $global-small-gutter;
   }
 
@@ -74,4 +76,29 @@
     top: -20px;
     color: $gray-dark;
   }
+
+  &__description svg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: $global-margin;
+  }
+}
+
+.cart--first-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $global-background-blue;
+  border-color: $global-border-blue;
+}
+
+.cart--content-center {
+  .cart__description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
