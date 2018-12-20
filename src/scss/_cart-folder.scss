@@ -10,7 +10,30 @@
     display: flex;
   }
 
-  &__text {
-  padding: 0 $global-small-gutter;
+  &__image {
+  flex-basis: 35%;
+  }
+
+  &__text{
+    flex-basis: 65%;
+    padding-left: $global-xssmall-gutter;
+  }
+
+  &__check {
+    opacity: 0;
+  }
+
+  &__quantity {
+    color: $gray-dark;
+  }
+
+
+  &:hover {
+    .cart-folder__text {
+      color: $blue;
+    }
+    .cart-folder__check {
+      opacity: 1;
+    }
   }
 }

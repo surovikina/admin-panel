@@ -1,6 +1,7 @@
 .cart {
   position: relative;
   width: 340px;
+  min-height: 400px;
   margin-top: $global-medium-margin;
   background-color: $white-color;
   border: $global-border-width solid $global-border;
